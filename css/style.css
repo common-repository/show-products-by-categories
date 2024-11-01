@@ -1,0 +1,81 @@
+.widget_show_by_categories_widget{
+	float: left;
+	width:100%;
+	margin: 40px 0px;
+}
+.widget.widget_show_by_categories_widget:first-child{
+	margin-top: 0px;
+}
+.widget.widget_show_by_categories_widget:last-child{
+	margin-bottom: 0px;
+}
+.widget_show_by_categories_widget ul {
+  list-style: none;
+}
+.widget_show_by_categories_widget h1,
+.widget_show_by_categories_widget h2,
+.widget_show_by_categories_widget h3,
+.widget_show_by_categories_widget h4 {
+  font-weight: 500 !important;
+}
+.widget_show_by_categories_widget .widget-title {
+  border-bottom: 1px solid #ececec;
+  font-size: 24px;
+  font-weight: 400 !important;
+  line-height: 30px;
+  color: #434343;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  letter-spacing: -1px;
+}
+.widget_show_by_categories_widget .product_list_widget .media,
+.widget_show_by_categories_widget .product_list_widget .media .media {
+  margin-top: 20px;
+}
+.widget_show_by_categories_widget .product_list_widget .media:first-child {
+  margin-top: 0;
+}
+.widget_show_by_categories_widget .product_list_widget .media > .thumb-holder {
+  margin-right: 10px;
+  float: left;
+  width:75px;
+  padding: 5px;
+}
+.widget_show_by_categories_widget .product_list_widget .media > .thumb-holder img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.widget_show_by_categories_widget .product_list_widget .media .media-heading {
+  line-height: 20px;
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 600 !important;
+  color: #3d3d3d;
+}
+.widget_show_by_categories_widget .product_list_widget .media .media-heading > a {
+  color: #3d3d3d;
+}
+.widget_show_by_categories_widget .product_list_widget .price {
+  line-height: 28px;
+}
+.widget_show_by_categories_widget .product_list_widget .price .price-prev,
+.widget_show_by_categories_widget .product_list_widget .price del .amount {
+  color: #c6c6c6;
+  font-size: 11px;
+  text-decoration: line-through;
+}
+.widget_show_by_categories_widget .product_list_widget .price .price-current,
+.widget_show_by_categories_widget .product_list_widget .price ins,
+.widget_show_by_categories_widget .product_list_widget .price ins .amount {
+  font-size: 15px;
+  font-weight: 700 !important;
+  font-weight: 800;
+  text-decoration: none;
+}
+.widget_show_by_categories_widget .product_list_widget .price .price-prev,
+.widget_show_by_categories_widget .product_list_widget .price .price-current {
+  display: inline-block;
+  vertical-align: top;
+  vertical-align: middle;
+}
